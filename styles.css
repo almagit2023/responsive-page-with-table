@@ -28,13 +28,14 @@ header p {
 
 header {
   padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   color: #617140;
+
 }
 
 .content-area {
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
+  border-top: 3px solid #e5e9dc;
+  border-bottom: 3px solid #e5e9dc;
 }
 
 .main-area {
@@ -47,6 +48,10 @@ header {
 .sidebar {
   width: 34%;
   float: left;
+  background: #e5e9dc;
+  box-sizing: border-box;
+  font-size: 85%;
+  padding: 20px 40px;
 }
 
 /* utility class clearfix */
@@ -54,4 +59,45 @@ header {
   content: "";
   display: table;
   clear: both;
+}
+
+footer {
+  text-align: center;
+  font-size: 85%;
+  color: #999;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* Site Navigation */
+
+.site-nav li {
+  list-style-type: none;
+  float: left;
+  margin-right: 5px;
+}
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.site-nav {
+  margin-top: 20px;
+
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #617140;
+  padding: 10px 20px;
+  border: 3px solid #e5e9dc;
+  display: block;
+  border-bottom: none;
+}
+
+.site-nav a:hover {
+  background-color: #869960;
+  cursor: pointer;
+  color: #fff;
 }
