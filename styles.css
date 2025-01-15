@@ -101,3 +101,31 @@ footer {
   cursor: pointer;
   color: #fff;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Squirrel Image banner overlay */
+.image-banner {
+  position: relative;
+
+}
+
+/* Explain this one */
+.image-banner img {
+  display: block;
+}
+
+.banner-description {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 900;
+  padding: 8px;
+
+}
